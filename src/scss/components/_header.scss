@@ -1,0 +1,40 @@
+.crypto-header {
+    background-color: $dark-grey;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.link-item {
+    font-family: $font;
+    font-size: $sm-font;
+    font-weight: $semi-bold;
+    line-height: 20px;
+    color: $light-color;
+}
+
+// .item-image {
+//     width: 34px;
+//     background-color: $light-color;
+//     border-radius: 50%;
+// }
+
+
+.color {
+    color: white
+}
+
+.userAvatar {
+    background-color: white;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
